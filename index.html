@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>My personal website</title>
+    <style>
+      /* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Navigation bar */
+nav {
+  text-align: center;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section headers */
+h2 {
+  color: #34495e;
+  text-align: center;
+}
+
+/* Paragraph text */
+p {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Table styling */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #7f8c8d;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #2980b9;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ecf0f1;
+}
+
+/* Contact form */
+form {
+  width: 60%;
+  margin: 0 auto;
+  background: #eaf2f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #219150;
+}
+
+/* Hobbies list */
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+li {
+  background-color: #f39c12;
+  color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+  
+    </style>
+</head>
+<body>
+    <!--Heading and image -->
+<h1>My Name</h1>
+<img src="myphoto.jfif" alt="My photo" width="200">
+<hr>
+<!--Navigation bar-->
+<nav>
+    <a href="#bio"></a>
+    <a href="#education"></a>
+    <a href="contact"></a>
+    <a href="#hobbies"></a>
+</nav>
+<hr>
+<!--Bio section-->
+<h2 id ="bio">About Me</h2>
+<p>Hello I'm passionate about web development. i love using HTML,CSS & javaScript</p>
+<hr>
+<!-- Academic Background Table-->
+ <h2 id ="education">Academic Background</h2>
+ <table>
+    <tr>
+        <th>Qualification</th>
+        <th>Institution</th>
+        <th>year</th>
+    </tr>
+    <tr>
+        <td>10th Grade</td>
+        <td>High school</td>
+        <td>2020</td>
+    </tr>
+    <tr>
+        <td>12th Grade</td>
+        <td>High school</td>
+        <td>2022</td>
+    </tr>
+
+
+ </table>
+ <hr>
+ <!--Contact form-->
+ <h2 id="contact">Contact Me</h2>
+ <form>
+    Name:<input type="text" name="name"><br><br>
+    Email:<input type="email" name="email"><br><br>
+    Message:<br>
+    <textarea rows="5" cols="30"></textarea><br><br>
+    <input type ="submit" value="send"></form>
+    <hr>
+    <!--List of hobbies-->
+    <h2 id="hobbies">My hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Gaming</li>
+        <li>Traveling</li>
+    </ul>
+
+</body>
+</html>
